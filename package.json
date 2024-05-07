@@ -38,5 +38,9 @@
 		"vite": "^5.0.3",
 		"vitest": "^1.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource-variable/dm-sans": "^5.0.6",
+		"lucide-svelte": "^0.378.0"
+	}
 }
