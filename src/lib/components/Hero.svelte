@@ -1,10 +1,7 @@
 <script>
 	import { onMount, onDestroy } from 'svelte';
 
-	let slides = [
-		'https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.30808-6/402083149_122093160740126270_8589315013911526851_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFyWsFFSR4CBw3obD26WN8POjC7oXLzh_k6MLuhcvOH-VkTUlEdMxXLTMkbOW2_5Kzw7PD4n0N-4u59CS94q_KU&_nc_ohc=xsj5YBAZrF8Q7kNvgGGUhvY&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfDJ0uyuYykefF0Yoz96gWjPyygWY-ElocLZHXq-f4HeFg&oe=663E8A3B',
-		'https://scontent.fmnl7-2.fna.fbcdn.net/v/t39.30808-6/402566864_122093164256126270_2663353285491705998_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFtUYhcHwY8VL9wb0M973whwBK6POygwh3AEro87KDCHeT3YnWMnQz3nF-2pu-U57Teb-18jfh4M9fBMYAZIVZ4&_nc_ohc=H1DGxfALMOkQ7kNvgEM9i1r&_nc_ht=scontent.fmnl7-2.fna&oh=00_AfCUxLZ14JilvRMks23Y2g8dMR2mGOKVvPc5PMF3WABk4w&oe=663E9796'
-	];
+	let slides = ['./lib-1.png', './lib-2.png'];
 	let currentIndex = 0;
 	let interval;
 

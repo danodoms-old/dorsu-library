@@ -1,4 +1,4 @@
-import '@fontsource-variable/dm-sans';
+// import '@fontsource-variable/dm-sans';
 export default {
 	plugins: {
 		tailwindcss: {},
