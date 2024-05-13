@@ -1,15 +1,9 @@
-<div class="hero min-h-screen h-dvh bg-base-200" id="vision">
-	<div class="hero-content flex-col lg:flex-row">
-		<img
-			src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-			class="max-w-sm rounded-lg shadow-2xl"
-		/>
-		<div>
+<div class=" p-4 min-h-screen h-dvh bg-base-200" id="vision">
+	<div class="justify-between lg:flex-row">
+		<img src="./bibliophile.svg" class="max-w-sm rounded-lg" />
+		<div class="">
 			<h1 class="text-5xl font-bold">Vision</h1>
-			<p class="py-6">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-				quasi. In deleniti eaque aut repudiandae et a id nisi.
-			</p>
+			<p class="py-6">A university of excellence, innovation and inclusion.</p>
 			<!-- <button class="btn btn-primary">Get Started</button> -->
 		</div>
 	</div>

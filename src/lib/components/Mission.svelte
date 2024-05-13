@@ -1,14 +1,14 @@
 <div class="hero h-dvh bg-base-200" id="mission">
 	<div class="hero-content flex-col lg:flex-row-reverse">
-		<img
-			src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-			class="max-w-sm rounded-lg shadow-2xl"
-		/>
+		<img src="./goals.svg" class="max-w-sm rounded-lg" />
 		<div>
 			<h1 class="text-5xl font-bold">Mission</h1>
 			<p class="py-6">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-				quasi. In deleniti eaque aut repudiandae et a id nisi.
+				To elevate knowledge generation, utilization and distribution To promote inclusive
+				sustainable development through R & D based higher quality education, technical-vocational
+				skills, responsive to the needs of local and global community To produce holistic, creative
+				and inclusive human resource who are responsive and resilient to global challenges while
+				maintaining a strong sense of nationhood
 			</p>
 			<!-- <button class="btn btn-primary">Get Started</button> -->
 		</div>

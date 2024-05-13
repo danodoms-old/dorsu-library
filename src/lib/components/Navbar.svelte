@@ -5,7 +5,16 @@
 <div class="navbar bg-base-100 fixed top-0 z-20">
 	<div class="flex-1">
 		<img src="./dorsu-logo.png" alt="" class="size-10" />
-		<a class="btn btn-ghost text-xl hidden lg:flex">Davao Oriental State University</a>
+		<a class="btn btn-ghost text-xl hidden md:flex" href="/">
+			<div class=" outline-1 outline-secondary text-start flex-col">
+				<p class="text-xs outline-1 outline-secondary uppercase font-extrabold p-0 m-0">
+					Davao Oriental State University
+				</p>
+				<p class="text-sm outline-1 outline-secondary uppercase font-bold m-0 p-0">
+					Banaybanay Campus Library
+				</p>
+			</div>
+		</a>
 	</div>
 	<div class="flex-none">
 		<ul class="menu menu-horizontal px-1">
