@@ -1,3 +1,7 @@
+<script>
+	import { MapPin } from 'lucide-svelte';
+</script>
+
 <footer class="footer p-10 bg-neutral text-neutral-content">
 	<aside>
 		<!-- <svg
@@ -13,10 +17,14 @@
 			></path></svg
 		> -->
 		<img src="./dorsu-logo.png" class="size-20" alt="" />
-		<p>
-			Davao Oriental State University - Banaybanay Campus Library<br />Providing reliable tech since
-			1992
-		</p>
+
+		<div class="flex-col gap-2">
+			<p>Davao Oriental State University - Banaybanay Campus Library</p>
+			<div class="flex gap-2">
+				<MapPin class="size-xs" />
+				<p>Banaybanay, Davao Oriental, Philippines</p>
+			</div>
+		</div>
 	</aside>
 	<nav>
 		<h6 class="footer-title">Social</h6>
