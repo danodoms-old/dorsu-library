@@ -1,4 +1,4 @@
-<div class="hero h-dvh bg-base-200" id="mission">
+<div class="hero h-dvh" id="mission">
 	<div class="hero-content flex-col lg:flex-row-reverse">
 		<img src="./goals.svg" class="max-w-sm size-48 lg:size-auto rounded-lg" />
 		<div>

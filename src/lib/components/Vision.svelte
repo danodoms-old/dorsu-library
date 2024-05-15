@@ -1,4 +1,4 @@
-<div class=" p-4 min-h-screen h-dvh bg-base-200" id="vision">
+<div class="mx-auto p-4 min-h-screen h-dvh" id="vision">
 	<div class="flex flex-wrap content-center align-middle gap-4">
 		<div class="flex-auto outline-1 content-center">
 			<img src="./bibliophile.svg" class="size-40 rounded-lg lg:size-auto mx-auto flex-auto" />

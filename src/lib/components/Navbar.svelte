@@ -2,7 +2,7 @@
 	import { Menu } from 'lucide-svelte';
 </script>
 
-<div class="navbar bg-base-100 fixed top-0 z-20">
+<div class="navbar bg-white fixed top-0 z-40 outline-1 outline outline-slate-200">
 	<div class="flex-1">
 		<img src="./dorsu-logo.png" alt="" class="size-10" />
 		<a class="btn btn-ghost text-xl hidden md:flex" href="/">
