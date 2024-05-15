@@ -32,7 +32,8 @@
 </script>
 
 <div
-	class="hero h-dvh flex flex-col gap-4 p-4 justify-center pt-20 bg-[url('./lib-2-upscaled.jpg')] bg-center bg-cover bg-no-repeat background-blend-multiply"
+	class="hero h-dvh flex flex-col gap-8 p-4 justify-center bg-center bg-cover bg-no-repeat background-blend-multiply"
+	style="background-image: url('./lib-2-upscaled.png');"
 >
 	<!-- CAROUSEL -->
 	<!-- <div class="carousel rounded-box flex-auto w-1/2 h-1/2">
@@ -44,16 +45,17 @@
 		</div>
 	</div> -->
 
-	<div class="flex-1 flex-col flex justify-center">
+	<div class="flex-initial pt-20 flex-col flex justify-center z-20">
 		<img src="./dorsu-logo.png" class="size-20 mx-auto mb-4" alt="" />
 		<h1
 			class="text-2xl text-white lg:text-5xl font-bold text-center text-balance leading-tight drop-shadow-lg"
 		>
-			Davao Oriental State University <span> Banaybanay Campus Library </span>
+			Davao Oriental State University <br />
+			<span class="text-xl lg:text-3xl"> Banaybanay Campus Library </span>
 		</h1>
 	</div>
 
-	<div class="p-4 flex-col gap-4 flex bg-white rounded-md bg-opacity-90">
+	<div class="p-6 flex-col gap-4 flex bg-white rounded-lg bg-opacity-90 z-20">
 		<h1 class="text-2xl lg:text-3xl font-bold leading-tight">
 			Expand your horizons. Visit our library today
 		</h1>
@@ -62,7 +64,7 @@
 			<p>Banaybanay, Davao Oriental, Philippines</p>
 		</div>
 
-		<div class="flex gap-2 outline-1 flex-wrap">
+		<div class="flex gap-2 outline-1 flex-wrap mb-2">
 			<Clock class="my-auto" />
 			<p class=" outline-1 my-auto">Library Hours: 8:00 AM - 5:00 PM</p>
 
@@ -76,4 +78,6 @@
 
 		<button class="btn btn-primary">Contact Us</button>
 	</div>
+
+	<div class="bg-neutral-800 opacity-70 w-full h-full absolute z-0"></div>
 </div>
