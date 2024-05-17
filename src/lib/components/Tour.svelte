@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { Map } from 'lucide-svelte';
+	import { text } from '@sveltejs/kit';
+	import { Map, SquareLibrary, Star } from 'lucide-svelte';
 
 	let currentSlide = 0;
 	let slides = ['./lib-1.png', './lib-2.png'];
@@ -13,7 +14,7 @@
 	}
 </script>
 
-<div class="h-auto md:h-dvh flex flex-col p-4 outline-1 justify-center">
+<div class="h-auto md:h-dvh flex flex-col p-4 outline-1 justify-center gap-4">
 	<div class="flex gap-2 mx-auto p-8 pt-4">
 		<h1 class="font-extrabold text-3xl">Take a Tour</h1>
 		<Map class="my-auto size-8" />
@@ -55,6 +56,20 @@
 				&#10095;
 			</button>
 		</div>
+	</div>
+
+	<div class="bg-neurtal-200 rounded-md flex flex-wrap gap-4">
+		<p class="text-justify font-light text-lg flex-auto md:flex-1 p-4 bg-neutral-200 rounded-md">
+			<SquareLibrary class="mb-2" />Our collection features a diverse array of books covering a wide
+			range of topics, ensuring that there is something for everyone.
+		</p>
+
+		<p class="text-justify font-light text-lg flex-auto bg-neutral-200 rounded-md p-4 md:flex-1">
+			<Star class="mb-2" />
+			Whether you're interested in fiction, history, science, or something else, we have resources to
+			support your curiosity and learning. We invite you to explore our collection and enjoy a quiet,
+			friendly space to read and discover.
+		</p>
 	</div>
 </div>
 
