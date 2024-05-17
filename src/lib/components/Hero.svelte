@@ -88,7 +88,11 @@
 				{/if}
 			</div>
 
-			<button class="btn btn-primary">Contact Us</button>
+			<a
+				class="btn btn-primary"
+				href="https://www.facebook.com/profile.php?id=61553788100562"
+				target="_blank">Contact Us</a
+			>
 		</div>
 	{/if}
 

@@ -60,15 +60,17 @@
 
 	<div class="bg-neurtal-200 rounded-md flex flex-wrap gap-4">
 		<p class="text-justify font-light text-lg flex-auto md:flex-1 p-4 bg-neutral-200 rounded-md">
-			<SquareLibrary class="mb-2" />Our collection features a diverse array of books covering a wide
-			range of topics, ensuring that there is something for everyone.
+			<SquareLibrary class="mb-2" />Our library provides a wide array of resources to support the
+			diverse academic needs of our students. Whether your focus is on science, technology,
+			business, humanities, or any other discipline, we have the materials you need to excel in your
+			studies.
 		</p>
 
 		<p class="text-justify font-light text-lg flex-auto bg-neutral-200 rounded-md p-4 md:flex-1">
 			<Star class="mb-2" />
-			Whether you're interested in fiction, history, science, or something else, we have resources to
-			support your curiosity and learning. We invite you to explore our collection and enjoy a quiet,
-			friendly space to read and discover.
+			Our collection includes textbooks, academic journals, and research papers, all available in a quiet,
+			friendly environment perfect for studying and research. We invite you to explore and take full
+			advantage of our resources to enhance your learning experience.
 		</p>
 	</div>
 </div>
