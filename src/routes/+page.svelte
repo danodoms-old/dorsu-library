@@ -5,13 +5,15 @@
 	import About from '$lib/components/About.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Events from '$lib/components/Events.svelte';
+	import Tour from '$lib/components/Tour.svelte';
 </script>
 
 <div>
 	<Hero />
-	<Events/>
+	<Events />
+	<Tour />
 	<Mission />
 	<Vision />
-	<About />
+	<!-- <About /> -->
 	<Footer />
 </div>

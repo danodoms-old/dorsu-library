@@ -41,7 +41,11 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/dm-sans": "^5.0.6",
+		"@slidy/animation": "^1.0.8",
+		"@slidy/svelte": "^3.4.4",
 		"@sveltejs/adapter-vercel": "^5.3.0",
-		"lucide-svelte": "^0.378.0"
+		"embla-carousel-svelte": "^8.0.4",
+		"lucide-svelte": "^0.378.0",
+		"swiper": "^11.1.3"
 	}
 }
