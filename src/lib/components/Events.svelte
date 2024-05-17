@@ -19,8 +19,8 @@
 	import { Facebook, Megaphone } from 'lucide-svelte';
 </script>
 
-<section class="h-auto md:h-dvh flex flex-col gap-4 p-4 py-auto">
-	<div class="flex gap-2 mx-auto p-8">
+<section class="h-auto lg:h-dvh flex flex-col gap-4 p-4 justify-center">
+	<div class="flex gap-2 mx-auto pb-8">
 		<h1 class="font-extrabold text-3xl">Latest Posts</h1>
 		<Megaphone class="my-auto size-8" />
 	</div>
